@@ -1,6 +1,5 @@
 const sectionData = [
   {
-    imgPath: "../assets/images/illustration-hero.svg",
     id: 1,
     header: "A Simple Bookmark Manager",
     paragraph:

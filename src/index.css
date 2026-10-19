@@ -36,12 +36,12 @@
   @apply font-normal text-[0.9375rem] leading-[165%] tracking-normal;
 }
 
-@utility preset-2-mob-r {
+@utility preset-2-mob-l {
   @apply font-light text-[0.9375rem] leading-[200%] tracking-normal;
 }
 
 @utility preset-3 {
-  @apply font-medium text-xl leading-[85%] tracking-[2.31px] leading-[120%] tracking-[0.25px];
+  @apply font-medium text-xl leading-[120%] tracking-[0.25px];
 }
 
 @utility preset-3-mob {
@@ -78,4 +78,20 @@
 
 @utility preset-7 {
   @apply font-medium text-[0.625rem] leading-[120%] tracking-[0.25px] italic;
+}
+
+@utility hero-header {
+  @apply preset-1-mob md:preset-1 text-blue-950 text-center xl:text-left;
+}
+
+@utility hero-bg {
+  @apply absolute content-[''] -z-1 w-144.25 md:w-250 h-[67.6%] md:h-[72.42%] rounded-full bottom-0 left-1/4 bg-blue-600;
+}
+
+@utility section-header {
+  @apply preset-1-mob text-blue-950 text-center mb-4;
+}
+
+@utility section-paragraph {
+  @apply preset-2-mob-r md:preset-4 text-blue-950/50 text-center;
 }
