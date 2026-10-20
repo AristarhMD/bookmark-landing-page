@@ -3,7 +3,6 @@ import { Section } from "./reusable/Section.jsx";
 import { sectionData } from "../data.js";
 
 export function Main() {
-  console.log(sectionData);
   return (
     <main className="mt-8.75 md:mt-20 xl:mt-28.5 ">
       {sectionData.map((section) =>

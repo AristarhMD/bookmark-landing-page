@@ -80,6 +80,7 @@
   @apply font-medium text-[0.625rem] leading-[120%] tracking-[0.25px] italic;
 }
 
+/* Sections */
 @utility hero-header {
   @apply preset-1-mob md:preset-1 text-blue-950 text-center xl:text-left;
 }
@@ -94,4 +95,29 @@
 
 @utility section-paragraph {
   @apply preset-2-mob-r md:preset-4 text-blue-950/50 text-center;
+}
+
+/* Carrousel */
+
+.carrouselList {
+  @apply border-t border-[#495dcf]/20 preset-2-mob-r md:preset-5-regular text-center;
+}
+
+.carrouselList li {
+  @apply border-b border-[#495dcf]/20;
+}
+
+.carrouselList button {
+  @apply py-4 cursor-pointer hover:text-red-400;
+}
+.actCarrSlide {
+  @apply text-blue-950 border-b-4 border-red-400;
+}
+
+.notActCarrSlide {
+  @apply text-blue-950/75;
+}
+
+.carrBtn {
+  @apply w-28.5;
 }
