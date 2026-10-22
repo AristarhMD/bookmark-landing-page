@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "./Btns.jsx";
-import { carrouselData } from "../../data.js";
+import { carrouselData } from "../../data.jsx";
 
 import tab6 from "../../assets/images/illustration-features-tab-1.svg";
 import tab7 from "../../assets/images/illustration-features-tab-2.svg";

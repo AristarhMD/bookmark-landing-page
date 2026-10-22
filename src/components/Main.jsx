@@ -1,6 +1,6 @@
 import { HeroSection } from "./reusable/HeroSection.jsx";
 import { Section } from "./reusable/Section.jsx";
-import { sectionData } from "../data.js";
+import { sectionData } from "../data.jsx";
 
 export function Main() {
   return (

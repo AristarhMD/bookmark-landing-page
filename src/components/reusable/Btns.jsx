@@ -5,7 +5,7 @@ export function Button({ children, type, addStyle }) {
       : "bg-grey-50 text-blue-950/75 hover:inset-ring-grey-600 hover:text-grey-600";
   return (
     <button
-      className={`cursor-pointer preset-2-mob-m md:preset-6-medium py-2 md:py-2.5 rounded-[5px]  w-full hover:inset-ring-2 hover:bg-transparent ${typeOfBtn} ${addStyle ? addStyle : ""}`}
+      className={`cursor-pointer preset-2-mob-m md:preset-6-medium py-2 md:py-2.5 rounded-[5px] w-full hover:inset-ring-2 hover:bg-transparent ${typeOfBtn} ${addStyle ? addStyle : ""}`}
     >
       {children}
     </button>

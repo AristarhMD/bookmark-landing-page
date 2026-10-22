@@ -54,19 +54,16 @@ const carrouselData = [
 const addExtensionData = [
   {
     id: 13,
-    iconPath: "../assets/images/logo-chrome.svg",
     name: "Chrome",
     minVersion: 62,
   },
   {
     id: 14,
-    iconPath: "../assets/images/logo-firefox.svg",
     name: "Firefox",
     minVersion: 55,
   },
   {
     id: 15,
-    iconPath: "../assets/images/logo-opera.svg",
     name: "Opera",
     minVersion: 46,
   },

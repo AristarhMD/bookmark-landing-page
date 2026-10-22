@@ -1,4 +1,5 @@
 import { Carrousel } from "./Carrousel";
+import { Download } from "./Download";
 
 export function Section({ sectionData }) {
   const { id, header, paragraph } = { ...sectionData };
@@ -6,6 +7,8 @@ export function Section({ sectionData }) {
 
   if (id === 2) {
     sectionContext = <Carrousel />;
+  } else if (id === 3) {
+    sectionContext = <Download />;
   }
   return (
     <section>
