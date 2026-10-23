@@ -7,7 +7,7 @@ import logoOpera from "../../assets/images/logo-opera.svg";
 
 export function Download() {
   return (
-    <div className="flex flex-col justify-center items-center md:flex-row gap-10 md:gap-2 xl:gap-10">
+    <div className="flex flex-col justify-center items-center md:flex-row gap-10 md:gap-2 mt-10 mb-32 md:mt-16 md:mb-35.5 xl:gap-10 xl:mt-12 xl:mb-40">
       {addExtensionData.map((extension) => (
         <div
           key={extension.id}

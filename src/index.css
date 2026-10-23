@@ -11,7 +11,7 @@
 
   --font-sans: "Rubik", sans-serif;
 
-  --shadow-download-card: 0 10px 20px -5px #495dcf0d;
+  --shadow-download-card: 0 10px 20px -5px rgba(73, 93, 207, 0.1);
 }
 
 @utility preset-nav {
@@ -152,4 +152,48 @@
 
 .download-header {
   @apply text-2xl font-medium leading-[200%] text-blue-950 md:preset-3;
+}
+
+/* FAQ section */
+.accordion-container {
+  @apply border-b py-4 border-blue-950/15 flex flex-col;
+}
+.accordion-header-container {
+  @apply flex justify-between items-center cursor-pointer;
+}
+
+.accordion-header {
+  @apply preset-2-mob-r md:preset-4 text-blue-950  group-hover:text-red-400;
+}
+
+.arrow {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.active-arrow {
+  @apply -rotate-180;
+}
+
+.faq-arrow {
+  @apply stroke-blue-600 group-has-[.active-arrow]:stroke-red-400;
+}
+
+.faq-text-wrapper {
+  @apply grid grid-rows-[0fr] opacity-0 transition-all duration-300 ease-in-out;
+}
+
+.faq-text-wrapper.show {
+  @apply grid-rows-[1fr] opacity-100 mt-4;
+}
+
+.faq-text-inner {
+  @apply overflow-hidden;
+}
+
+.faq-text {
+  @apply preset-2-mob-l md:preset-5-light text-blue-950/75;
+}
+
+.faq-btn {
+  @apply w-28.5 mt-14;
 }
