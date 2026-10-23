@@ -167,7 +167,7 @@
 }
 
 .arrow {
-  @apply transition-all duration-300 ease-in-out;
+  @apply cursor-pointer transition-all duration-300 ease-in-out;
 }
 
 .active-arrow {
@@ -196,4 +196,42 @@
 
 .faq-btn {
   @apply w-28.5 mt-14;
+}
+
+/* CTA section */
+
+.cta-inner-text {
+  @apply flex flex-col-reverse md:gap-6 max-w-110.5;
+}
+
+.cta-text {
+  @apply preset-3-mob md:preset-6-semibold text-white uppercase text-center;
+}
+
+.cta-header {
+  @apply preset-1-mob md:preset-2 text-white text-center;
+}
+
+.cta-input {
+  @apply bg-white rounded-[5px] px-4 h-12 preset-2-mob-r placeholder:text-black/25 text-blue-950/25 w-full inset-ring-2 inset-ring-white;
+}
+
+.error-input {
+  @apply inset-ring-red-400;
+}
+
+.error-input-icon {
+  @apply absolute hidden bottom-1/2 translate-y-1/2 right-4;
+}
+
+.error-input-icon.show {
+  @apply block;
+}
+
+.error-text {
+  @apply py-1.5 pl-4 text-white preset-4-mob md:preset-7 xl:preset-7;
+}
+
+.contact-btn {
+  @apply bg-red-400 h-12 hover:bg-white hover:inset-ring-2 hover:inset-ring-red-400 hover:text-red-400;
 }
