@@ -27,7 +27,7 @@ export function NavList({ children, closeNav }) {
     </svg>
   );
   return (
-    <div className="fixed inset-0 w-full bg-blue-950/95 ">
+    <div className="fixed inset-0 z-10 w-full bg-blue-950/95 ">
       <div className="h-full mx-auto pt-10 pb-12 w-[82.51%] md:w-[79.15%] flex flex-col">
         <div className="flex items-center justify-between mb-10">
           {mobLogo}
