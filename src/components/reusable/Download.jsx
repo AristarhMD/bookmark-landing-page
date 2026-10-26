@@ -30,7 +30,7 @@ export function Download() {
             <p className="download-header mb-2 md:mb-0 xl:mb-2">
               Add to {extension.name}
             </p>
-            <p className="preset-2-mob-r md:md:preset-6-r text-blue-950/50">
+            <p className="preset-2-mob-r md:preset-6-regular text-blue-950/50">
               Minimum version {extension.minVersion}
             </p>
           </div>

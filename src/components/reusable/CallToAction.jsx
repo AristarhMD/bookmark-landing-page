@@ -14,7 +14,7 @@ export function CallToAction() {
       return;
     } else {
       if (answer.length === 0) {
-        setError("Whoops, this field should be filed");
+        setError("Whoops, this field should be filled");
       } else {
         setError("Whoops, make sure it’s an email");
       }

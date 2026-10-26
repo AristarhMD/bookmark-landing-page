@@ -47,7 +47,7 @@ export function Carrousel() {
               />
             </div>
             <div className="carrousel-text">
-              <h1 className="carrousel-header">{carrousel.header}</h1>
+              <h3 className="carrousel-header">{carrousel.header}</h3>
               <p className="section-paragraph xl:text-left">{carrousel.text}</p>
               <Button type="primary" addStyle="carrBtn">
                 More Info
